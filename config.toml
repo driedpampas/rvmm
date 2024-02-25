@@ -9,7 +9,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 included-patches = "'Remove player controls background'"
-excluded-patches = "'GmsCore support' 'Copy video URL' 'External downloads' 'Swipe controls' 'Spoof app version' 'Player flyout menu' 'Hide info cards' 'Hide seekbar' 'Comments'"
+excluded-patches = "'Copy video URL' 'External downloads' 'Swipe controls' 'Spoof app version' 'Player flyout menu' 'Hide info cards' 'Hide seekbar' 'Comments'"
 
 [Music]
 enabled = false
