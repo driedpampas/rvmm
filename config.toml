@@ -6,10 +6,10 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "both"
-excluded-patches = "'Swipe controls' 'Copy video URL' 'Disable precise seeking gesture' 'Disable player popup panels' 'Hide captions button' 'Restore old seekbar thumbnails' 'Tablet mini player' 'Spoof app version' 'Wide searchbar' 'Hide seekbar' 'Player flyout menu'"
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+build-mode = "module"
+included-patches = "'Remove player controls background'"
+excluded-patches = "'GmsCore support' 'Copy video URL' 'External downloads' 'Swipe controls' 'Spoof app version' 'Player flyout menu' 'Hide info cards' 'Hide seekbar' 'Comments'"
 
 [Music]
 enabled = false
